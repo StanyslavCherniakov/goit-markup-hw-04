@@ -159,13 +159,16 @@ header {
 
 /* Герой */
 .hero {
+  background-color: var(--bg-section-color);
+}
+
+.hero .wraper {
   padding: 200px 0;
   max-width: 1600px;
   margin-right: auto;
   margin-left: auto;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero.jpg);
-  background-color: var(--bg-section-color);
   text-align: center;
 }
 .hero-title {

@@ -50,6 +50,19 @@ ul {
   padding-bottom: 94px;
 }
 
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 img {
   display: block;
 }
@@ -338,7 +351,43 @@ header {
 .icon-link {
   fill: currentColor;
 }
+/* <!-- Постоянные клиенты --> */
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  color: var(--secondary-text-color);
+  margin-bottom: 50px;
+}
 
+.clients-list {
+  display: flex;
+  justify-content: center;
+}
+
+.client-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients .link {
+  display: block;
+  height: 92px;
+  width: 170px;
+  padding: 16px 32px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  color: #afb1b8;
+}
+
+.icon-comp {
+  fill: currentColor;
+}
+
+.client-item .link:hover {
+  color: var(--accent-color);
+  border: 1px solid #2196f3;
+}
 /* Футер */
 .bottom {
   padding-top: 60px;

@@ -254,7 +254,7 @@ header {
 }
 
 .section .wrapper {
-  padding: 30px 0;
+  padding-top: 30px;
 
   background-color: var(--white-color);
   border-radius: 0px 0px 4px 4px;
@@ -302,6 +302,39 @@ header {
   font-size: 16px;
   line-height: 1.18;
 }
+
+/* Ссылки на соцсети */
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  padding: 16px 32px 30px 32px;
+  background-color: var(--white-color);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.social-link {
+  display: block;
+  height: 44px;
+  width: 44px;
+  padding: 12px;
+  border-radius: 50%;
+  color: #afb1b8;
+}
+
+.item-social:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link:hover {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
+.icon-link {
+  fill: currentColor;
+}
+
 /* Футер */
 .bottom {
   padding-top: 60px;

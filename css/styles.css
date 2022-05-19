@@ -426,6 +426,36 @@ header {
   color: var(--accent-color);
 }
 
+.bottom .container {
+  display: flex;
+}
+
+.bottom .wrapper {
+  margin-left: 50px;
+}
+
+.text {
+  margin-top: 12px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.bottom .list-social {
+  display: flex;
+}
+
+.bottom .social-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-right: 10px;
+}
+
+.social-link:hover {
+  background-color: var(--accent-color);
+}
 /* Портфолио */
 .projects .list.buttons {
   display: flex;

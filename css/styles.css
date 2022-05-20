@@ -134,6 +134,9 @@ header {
   padding-top: 32px;
   padding-bottom: 32px;
 
+  display: flex;
+  align-items: center;
+
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
